@@ -3,6 +3,7 @@ pipeline {
     docker {
         image 'maven:latest'
     }
+    }
     stages {
         stage ('Initialize') {
             steps {
@@ -13,6 +14,6 @@ pipeline {
                 }
           }
 
-        }
+        
    }
 }
