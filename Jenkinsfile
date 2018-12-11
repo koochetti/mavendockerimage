@@ -1,7 +1,7 @@
 pipeline {
     agent {
     docker {
-        image 'Maven 3.3.9'
+        image 'maven:latest'
     }
     stages {
         stage ('Initialize') {
